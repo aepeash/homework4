@@ -3,7 +3,7 @@ html{
 }
 
 body{
-  background-color: #ddd;
+  background-color: #666666;
   font-size: 18px;
   margin: 0;
   padding: 0;
@@ -101,22 +101,10 @@ header p{
   grid-row-gap: 15px;
 }
 
-.about{
-
-  grid-column: 2 / span 1;
-
-}
-.method{
+.about, .method, .clients, .contact{
   grid-column: 2 / span 1;
 }
-.clients{
 
-  grid-column: 2 / span 1;
-}
-.contact{
-
-  grid-column: 2 / span 1;
-}
 .about-image, .method-image, .clients-image, .contact-image{
   grid-column: 1 / -1;
   max-height: 700px;
